@@ -1,0 +1,222 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 26/06/2018 17:19
+  	*/
+
+@font-face {
+font-family: "Flaticon";
+src: url("../font/Flaticon.eot");
+src: url("../font/Flaticon.eot?#iefix") format("embedded-opentype"),
+        url("../font/Flaticon.woff") format("woff"),
+        url("../font/Flaticon.ttf") format("truetype"),
+        url("../font/Flaticon.svg#Flaticon") format("svg");
+font-weight: normal;
+font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+@font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+}
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+font-family: Flaticon;
+font-size: 40px;
+font-style: normal;
+
+}
+
+.flaticon-skyline:before { content: "\f100"; }
+.flaticon-sketch:before { content: "\f101"; }
+.flaticon-city:before { content: "\f102"; }
+
+*{
+    font-family: 'Roboto';
+    box-sizing: border-box;
+    
+}
+p{
+    font-size: 11px;
+    color: #696969;
+}
+.main{
+    background-image: url(../img/banner/home-banner.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.home_content{
+    padding: 18px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+a{
+    color:#0a0a0a;
+    text-decoration: none;
+    padding: 15px;
+}
+.to_right{
+    float: right;
+}
+.to_left{
+    float: left;
+}
+.column12{
+    width: calc((12/12)*100%);
+    border: 1px solid blue;
+    height: 200px;
+}
+.column11{
+    width: calc((11/12)*100%);
+    border: 1px solid blue;
+    height: 200px;
+}
+.column10{
+    width: calc((10/12)*100%);
+    height: 200px;
+    border: 1px solid blue;
+}
+.column9{
+    width: calc((9/12)*100%);
+    height: 200px;
+    border: 1px solid blue;
+}
+.column8{
+    width: calc((8/12)*100%);
+    height: 200px;
+    border: 1px solid blue;
+}
+.column7{
+    width: calc((7/12)*100%);
+    height: 200px;
+    /*border: 1px solid blue;*/
+}
+.column6{
+    width: calc((6/12)*100%);
+    height: 400px;
+    padding: 10px;
+    margin-top: 60px; 
+}
+.column5{
+    width: calc((5/12)*100%);
+    height: 200px;
+    border: 1px solid blue;
+}
+.column4{
+    width: calc((4/12)*100%);
+    height: 200px;
+    margin-top: 12px;
+    padding: 20px; 
+}
+.column3{
+    width: calc((3/12)*100%);
+    height: 100px;
+    border: 1px solid grey;
+    margin-top: 12px;
+    padding: 20px; 
+}
+.column2{
+    width: calc((2/12)*100%);
+    height: 200px;
+    border: 1px solid blue;
+}
+.column1{
+    width: calc((1/12)*100%);
+    height: 200px;
+    /*border: 1px solid blue;*/
+}
+.column6 img{
+    height: 375px;
+    margin-left: 190px;
+    margin-top: 13px;
+}
+button{
+    background-image: linear-gradient(90deg,#8490ff, #62bdfc);
+    color: #ffffff;
+    border-radius: 3px;
+    border: none;
+}
+.about_content{
+    clear: left;
+    padding: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.about_content .column4{
+    padding: 30px;
+    height: 150px;
+}
+.services_content{
+    clear: left;
+    text-align: center;
+    margin-top: 100px;
+    padding: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.services_content .column4{
+    background:#ffffff;
+}
+.color_service{
+    clear: left;
+    background: rgba(243, 241, 241, 0.911);
+    height: 700px;
+}
+.project_content{
+    clear: left;
+    text-align: center;
+    padding: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.project_content p{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.project_content nav{
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.project_content .column4{
+    padding: 15px;
+    border: none;
+    box-shadow: none;
+    margin-bottom: 80px;
+}
+
+.column4 img{
+    height: 200px;
+}
+.footer_content{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.footer_content .column4{
+    height: 150px;
+    box-shadow: none;
+}
+.footer_content input{
+    height: 25px;
+}
+.footer_content h4{
+    color: #ffffff;
+}
+span{
+    padding: 7px;
+}
+.color_footer{
+    clear: left;
+    background-color: #0a0a0a;
+    height: 200px;
+}
+.column4 .img1{
+    background-image: url(../img/projects/projects-1.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

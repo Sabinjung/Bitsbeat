@@ -1,0 +1,65 @@
+$grid_height: auto;
+$float: left;
+.column12{
+    width: ((12/12)*100%);
+    height: $grid_height;
+    float: $float;
+}
+.column11{
+    width: ((11/12)*100%);
+    height: $grid_height;
+    float: $float;
+}
+.column10{
+    width: ((10/12)*100%);
+    height: $grid_height;
+    float: $float;
+}
+.column9{
+    width: ((9/12)*100%);
+    height: $grid_height;
+    float: $float;
+}
+.column8{
+    width: ((8/12)*100%);
+    height: $grid_height;
+    float: $float;
+}
+.column7{
+    width: ((7/12)*100%);
+    height: $grid_height;
+    float: $float;
+}
+.column6{
+    width: ((6/12)*100%);
+    height: $grid_height;
+    float: $float; 
+}
+.column5{
+    width: ((5/12)*100%);
+    height: $grid_height;
+    float: $float;
+}
+.column4{
+    width: ((4/12)*100%);
+    height: $grid_height;
+    float: $float;
+    padding: 20px;
+}
+.column3{
+    width: ((3/12)*100%);
+    height: $grid_height;
+    float: $float;
+    
+}
+.column2{
+    width: ((2/12)*100%);
+    height: $grid_height;
+    float: $float;
+    
+}
+.column1{
+    width: ((1/12)*100%);
+    height: $grid_height;
+    float: $float;
+}

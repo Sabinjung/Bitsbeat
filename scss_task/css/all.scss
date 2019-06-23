@@ -1,0 +1,224 @@
+@import "../sass/base/resets";
+@import "../sass/components/grid.scss";
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Flaticon.woff") format("woff"),
+        url("../fontsFlaticon.ttf") format("truetype"),
+        url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+  
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+@font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+  
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+font-family: Flaticon;
+font-size: 40px;
+font-style: normal;
+margin-right: 135px;
+}
+  
+.flaticon-skyline:before { content: "\f100"; }
+.flaticon-sketch:before { content: "\f101"; }
+.flaticon-city:before { content: "\f102"; }
+  
+*{
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+.row{
+  margin-top: 25px;
+}
+.row::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+nav::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.logo{
+  float:left;
+}
+nav{
+  float: right;
+  ul{
+    li{
+      list-style: none;
+      display: inline;
+      padding: 15px;
+    }
+  }
+}
+.wrapper_banner{
+  background-image: url("../images/banner/home-banner.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.clearfix::after{
+  content:'';
+  clear:both;
+  display: block;
+}
+header{
+  padding:20px;
+  margin-bottom: 80px;
+}
+img{
+  position: relative;
+}
+.banner_img{
+ img{
+    height: 350px;
+    left: 273px;
+    top: 2px;
+  }
+}
+.profile{
+  position: relative;
+  top: 30px;
+  p{
+    width: 553px;
+  }
+}
+.profile::first-line{
+  font-weight: bold;
+  color: #010814;
+}
+.about_section{
+  padding: 120px 283px;
+}
+.service_section{
+  text-align: center;
+  background-color: rgba(168, 168, 168, 0.13);
+  padding: 120px 283px;
+  p{
+    text-align: center;
+  }
+  .column4{
+    p{
+      text-align: left;
+    }
+  }
+}
+.colorcol{
+  background-color: #ffffff;
+  border: 10px solid rgba(168, 168, 168, 0.13); 
+}
+.project_section{
+  text-align: center;
+  padding: 120px 283px;
+  nav{
+    padding: 30px;
+    float: initial;
+  }
+  p{
+    text-align: center;
+  }
+  img{
+    height: 225px;
+    width: 225px;
+  }
+  .row:nth-child(2){
+    margin-top: 0px;
+  }
+  .column4{
+    padding: 0px;
+    h4{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      position: relative;
+      bottom: 58px;
+      left: 20px;
+    }
+    p{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      text-align: left;
+      position: relative;
+      left: 20px;
+      bottom: 52px;
+    }
+  }
+}
+footer{
+  background-color: #010814;
+  padding: 30px 283px;
+  .column4{
+    padding: 20px;
+  }
+  h4{
+    color: #ffffff;
+  }
+  input{
+    width: 166px;
+  }
+  ::placeholder{
+    font-size: 12px;
+  }
+  button{
+    text-align: center;
+    display: inline-block;
+    padding: 3px 10px;
+    background-image: linear-gradient(90deg,#8490ff, #62bdfc);
+    color: #ffffff;
+    border-radius: 0px;
+    margin-top: 0px;
+    border: none;
+    position: relative;
+    right: 5px;
+  }
+}
+button{
+  text-align: center;
+  display: inline-block;
+  padding: 10px 10px;
+  background-image: linear-gradient(90deg,#8490ff, #62bdfc);
+  color: #ffffff;
+  border-radius: 5px;
+  margin-top: 5px;
+  border: none;
+}
+p{
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  color: rgb(128,128,128);
+  font-size: 14px;
+  text-align: left;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+h4 { 
+  display: block;
+  font-size: 1em;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  text-align: left;
+}
+i{
+  padding: 5px;
+  color: rgba(102, 101, 101, 0.767);
+}
