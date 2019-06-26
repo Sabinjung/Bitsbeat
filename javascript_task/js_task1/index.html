@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <form action="" class="validation">
+      <div class="form-group">
+          <label for="pwd">Email:</label>
+          <input type="text" placeholder="Enter email" id="email" required>
+          <span id="e_message">Email not valid</span>
+        </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" id="pwd" placeholder="Enter password"  required>
+      <span><button id='btn' onclick="peekPwd()" type="button">peek</button></span>
+    </div>
+    <div class="form-group">
+      <label for="pwd_confirm">Confirm Password:</label>
+      <input type="password" id="pwd_confirm" placeholder="Confirm password"  required>
+      <span id="p_message">Password Not Matched</span>
+    </div>
+    <div class="form-group">
+      <label class="form-check-label">
+        <input id="checkbox" type="checkbox" name="remember">accept terms 
+      </label>
+    </div>
+    <button id="submitbtn" type="submit" disabled>Submit</button>
+  </form>
+  <script src="index.js"></script>
+</body>
+</html>
