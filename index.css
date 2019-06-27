@@ -1,0 +1,53 @@
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  text-align: center;
+  background: linear-gradient(-90deg, #84CF6A, #16C0B0);
+
+}
+h1{
+  font-size: 80px;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+}
+li{
+  font-size: 25px;
+}
+
+.todolists {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.task {
+  height: 40px;
+  padding: 20px;
+  border-block-end: 2px solid rgb(159, 231, 135);
+  background: rgb(237, 255, 255)
+}
+
+.align-left {
+  margin-left: auto;
+}
+button{
+  color: #fff;
+  background: lightcoral;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  width: 80px;
+  border: none;
+  float: right;
+}
+input{
+  width: 330px;
+  height: 35px;
+  font-size: 20px;
+}
